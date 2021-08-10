@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./images/favicon.png" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <!-- ======== Swiper Js ======= -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css" />
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Fresh Fruits & Vegetables</title>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="wrapper container">
+      <div class="logo">
+        <a href="/">
+          <img src="/images/logo.png" alt=""></a>
+      </div>
+      <ul class="nav-list">
+        <div class="top">
+          <label for="" class="btn close-btn"><i class="fas fa-times"></i></label>
+        </div>
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="" class="desktop-item">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+          <input type="checkbox" id="showMega" />
+          <label for="showMega" class="mobile-item">Shop <span><i class="fas fa-chevron-down"></i></label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="/images/nav.png" alt="">
+              </div>
+              <div class="row">
+                <header>Fresh</header>
+                <ul class="mega-links">
+                  <li><a href="#">Shop with Background</a></li>
+                  <li><a href="#">Shop with Background</a></li>
+                  <li><a href="#">Shop with Background</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Frozen</header>
+                <ul class="mega-links">
+                  <li><a href="#">Shop with Background</a></li>
+                  <li><a href="#">Shop with Background</a></li>
+                  <li><a href="#">Shop with Background</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="" class="desktop-item">Account <i class="fas fa-chevron-down"></i></a>
+          <input type="checkbox" id="showdrop2">
+          <label for="showdrop2" class="mobile-item">Account <i class="fas fa-chevron-down"></i></label>
+          <ul class="drop-menu2">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Faq</a></li>
+            <li><a href="#">Login/Register</a></li>
+          </ul>
+        </li>
+        <li class="icons">
+          <a href="#">
+            <span>
+              <img src="/images/shoppingBag.svg" alt="">
+              <small class="count d-flex">0</small>
+            </span>
+          </a>
+          <span>
+            <img src="/images/search.svg" alt="">
+          </span>
+        </li>
+      </ul>
+      <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="row">
+      <div class="swiper-container slider-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/hero-1.png" alt="">
+            <div class="content">
+              <h1>Fresh Produce box
+                <br />
+                Starting from
+                <span>$9</span>
+              </h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima veritatis itaque explicabo pariatur id
+                aperiam!</p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/hero-2.png" alt="">
+            <div class="content">
+              <h1>Your first Order
+                <br />
+                <span>20% off</span>
+              </h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima veritatis itaque explicabo pariatur id
+                aperiam!</p>
+              <a href="">Shop Now</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Carousel Navigation -->
+      <div class="arrows d-flex">
+        <div class="swiper-prev d-flex">
+          <i class="bx bx-chevrons-left swiper-icon"></i>
+        </div>
+        <div class="swiper-next d-flex">
+          <i class="bx bx-chevrons-right swiper-icon"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us Section -->
+  <div class="about">
+    <div class="about-left">
+      <h1>
+        About Us
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, officia quia omnis veritatis quidem
+        nobis.
+      </p>
+      <button class="about-button"><a href="#">Learn more</a></button>
+    </div>
+
+    <div class="about-right">
+      <img src="./images/about.jpg" alt="">
+    </div>
+  </div>
+
+
+
+  <!-- Why Us Section -->
+  <section class="why-us">
+    <div class="title">
+      <h2>Why Choose Us?</h2>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, excepturi?</sp>
+    </div>
+
+    <div class="container">
+      <main class="grid">
+        <article>
+          <img src="./images/why-1.jpg" alt="">
+          <div class="text">
+            <h3>lorem</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, vitae.</p>
+          </div>
+        </article>
+        <article>
+          <img src="./images/why-2.jpg" alt="">
+          <div class="text">
+            <h3>lorem</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis cupiditate rerum commodi perspiciatis
+              repellat.</p>
+          </div>
+        </article>
+        <article>
+          <img src="./images/why-3.jpg" alt="">
+          <div class="text">
+            <h3>lorem</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus nulla maiores dolorem ipsa sunt
+              repellat quo consequuntur pariatur mollitia itaque?</p>
+          </div>
+        </article>
+
+      </main>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="section featured">
+    <div class="title">
+      <h2>Featured Products</h2>
+      <span>Lorem ipsum dolor sit amet consectetur.</span>
+    </div>
+
+    <div class="row container">
+      <div class="swiper-container slider-2">
+        <div class="swiper-wrapper">
+          <!-- Featured item 1 -->
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="img-container">
+                <img src="/images/product-1.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="side-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>$150</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Featured item 2 -->
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="img-container">
+                <img src="/images/product-2.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="side-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>$150</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Featured item 3 -->
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="img-container">
+                <img src="/images/product-3.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="side-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>$150</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Featured item 4 -->
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="img-container">
+                <img src="/images/product-4.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="side-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>$150</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Featured item 5 -->
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="img-container">
+                <img src="/images/product-5.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="side-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>$150</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Featured item 6 -->
+          <div class="swiper-slide">
+            <div class="product">
+              <div class="img-container">
+                <img src="/images/product-6.jpg" alt="">
+                <div class="addCart">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+                <ul class="side-icons">
+                  <span><i class="fas fa-search"></i></span>
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="fas fa-sliders-h"></i></span>
+                </ul>
+              </div>
+              <div class="bottom">
+                <a href="productDetails.html">Bambi Print Mini Fruits</a>
+                <div class="price">
+                  <span>$150</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Featured Navigation -->
+    <div class="arrows d-flex">
+      <div class="custom-prev d-flex">
+        <i class="bx bx-chevrons-left swiper-icon"></i>
+      </div>
+      <div class="custom-next d-flex">
+        <i class="bx bx-chevrons-right swiper-icon"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections -->
+  <section class="section collection">
+    <div class="title">
+      <h2>Shop Collections</h2>
+      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+    </div>
+    <div class="collection-layout container">
+      <div class="collection-item">
+        <img src="/images/promo5.jpg" alt="">
+        <div class="collection-content">
+          <a href="">
+            <h3>Fruits</h3>
+          </a>
+        </div>
+      </div>
+      <div class="collection-item">
+        <img src="/images/promo1.jpg" alt="">
+        <div class="collection-content">
+          <a href="">
+            <h3>In Season</h3>
+          </a>
+        </div>
+      </div>
+      <div class="collection-item">
+        <img src="/images/product-10.jpg" alt="">
+        <div class="collection-content">
+          <a href="">
+            <h3>Vegetables</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact us -->
+  <div class="contact-container">
+    <div class="title">
+      <h2>Contact Us</h2>
+    </div>
+    <form action="action_page.php">
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="Name" placeholder="Your name">
+
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Your email">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="section footer" id="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-center">
+          <h3>Help</h3>
+          <a href="">Shipping</a>
+          <a href="">FAQ</a>
+          <a href="">Payment</a>
+          <a href="">Return</a>
+        </div>
+        <div class="footer-center">
+          <h3>My Account</h3>
+          <a href="">Lorem, ipsum.</a>
+          <a href="">Lorem, ipsum.</a>
+          <a href="">Lorem, ipsum.</a>
+          <a href="">Lorem, ipsum.</a>
+        </div>
+        <div class="footer-center">
+          <h3>Contact Us</h3>
+          <div>
+            <span><i class="fas fa-map-marker-alt"></i></span>
+            Lorem ipsum dolor sit amet.
+          </div>
+          <div>
+            <span><i class="fas fa-envelope"></i></span>
+            company@gmail.com
+          </div>
+          <div>
+            <span><i class="fas fa-phone"></i></span>
+            123123
+          </div>
+          <div class="payment-methods">
+            <img src="./images/payment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======== SwiperJS ======= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+  <!-- Custom Scripts -->
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
