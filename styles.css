@@ -395,7 +395,7 @@ nav.fix-nav {
 
 /* Hero */
 .hero {
-	height: 100vh;
+	height: 80vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -517,11 +517,11 @@ nav.fix-nav {
 }
 
 .arrows .swiper-prev {
-	left: 20px;
+	left: 6vw;
 }
 
 .arrows .swiper-next {
-	right: 20px;
+	right: 6vw;
 }
 
 @media (max-width: 567px) {
@@ -541,7 +541,7 @@ nav.fix-nav {
 /* About Us */
 .about-section {
 	width: 100%;
-	min-height: 90vh;
+	min-height: 70vh;
 	height: auto;
 	background-color: #ddd;
 }
